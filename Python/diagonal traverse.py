@@ -8,7 +8,7 @@ class Solution:
             for j in range(num_cols):
                 diagonals[i+j].append(mat[i][j])
         res = diagonals[0]
-        for x in range(len(diagonals)):
+        for x in range(1,len(diagonals)):
             if (x%2==1):
                 res.extend(diagonals[x])
             else:

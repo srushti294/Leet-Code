@@ -5,3 +5,4 @@ class Solution:
             if count[ch]==1:
                 return idx
         return -1
+
